@@ -1,13 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/style.css" rel="stylesheet">
-    <title>Credo App</title>
-</head>
-<body>
-    <h1 class="text-2xl text-red-500">Credo</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/style.css" rel="stylesheet" />
+    <title>Credos App</title>
+  </head>
+  <body class="antialiased bg-gray-50 text-gray-700">
+
+    <div class="container min-h-screen p-3">
+
+      <!-- header -->
+      <header class="flex justify-between content-center">
+        <a href="/" class="text-lg font-bold uppercase">CREDOS</a>
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </header>
+      <!-- /header -->
+
+      <!-- track button -->
+      <div class="my-4">
+        <button
+          class="bg-blue-500 w-full px-5 py-3 text-gray-50 font-bold text-sm rounded"
+        >
+          TRACK
+        </button>
+      </div>
+      <!-- /track button -->
+
+      <!-- stats -->
+      <div class="grid grid-cols-2 grid-row-2 gap-2 mt-6">
+
+        <!-- days -->
+        <div class="flex flex-col h-28 justify-center items-center">
+          <span class="text-xs font-bold">DAYS</span>
+          <span class="font-semibold text-6xl tracking-tighter">45</span>
+        </div>
+        <!-- /days -->
+
+        <!-- total -->
+        <div class="flex flex-col h-28 justify-center items-center">
+          <span class="text-xs font-bold">Total</span>
+          <span class="font-semibold text-6xl tracking-tighter">156</span>
+        </div>
+        <!-- /total -->
+
+        <!-- best streak -->
+        <div class="flex flex-col h-28 justify-center items-center">
+          <div>
+            <span class="text-xs font-bold">BEST STREAK</span>
+            <div>
+              <span class="font-semibold text-6xl tracking-tighter">18</span>
+              <span class="text-xs font-bold"> / PHY</span>
+            </div>
+          </div>
+        </div>
+        <!-- /best streak -->
+
+
+        <!-- daily avg -->
+        <div class="flex flex-col h-28 justify-center items-center">
+          <div>
+            <span class="text-xs font-bold">DAILY AVG</span>
+            <div>
+              <span class="font-semibold text-6xl tracking-tighter text-orange-400">5</span>
+              <span class="text-xs font-bold"> / 8</span>
+            </div>
+          </div>
+        </div>
+        <!-- /daily avg -->
+
+        <!-- consistant - focus on -->
+        <div class="col-span-2 flex justify-around mt-4">
+
+            <!-- consistant -->
+            <div class="flex flex-col bg-gray-50 justify-center items-center py-2">
+              <span class="text-[10px] font-bold">MOST CONSISTENT</span>
+              <span class="font-semibold">Relational</span>
+            </div>
+            <!-- /consistant -->
+            
+            <!-- focus on -->
+            <div class="flex flex-col bg-gray-50 justify-center items-center py-2">
+              <span class="text-[10px] font-bold">FOCUS ON</span>
+              <span class="font-semibold">Finances</span>
+            </div>
+            <!-- /focus on -->
+
+        </div>
+        <!-- /consistant - focus on -->
+
+      </div>
+      <!-- /stats -->
+
+      <!-- inspirational quote -->
+      <div
+        class="bg-gray-100 p-4 text-sm font-semibold border-l-4 border-blue-500 text-gray-600 mt-4"
+      >
+        Every action is a vote for the type of person you wish to become.
+        <span class="block text-gray-500">&#8212; James Clear</span>
+      </div>
+      <!-- /inspirational quote -->
+    </div>
+    
+  </body>
 </html>
