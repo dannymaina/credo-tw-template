@@ -8,12 +8,77 @@
     <title>Credos App</title>
   </head>
   <body class="antialiased bg-gray-50 text-gray-700">
+    <div class="container min-h-screen p-3 relative">
+      <!-- menu -->
+      <div class="hidden absolute top-0 right-0 left-0 bottom-0 bg-gray-50 p-3">
+        <!-- menu header -->
+        <header class="flex justify-between content-center">
+          <a href="/" class="text-lg font-bold uppercase text-blue-600"
+            >CREDOS</a
+          >
+          <button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </header>
+        <!-- /menu header -->
 
-    <div class="container min-h-screen p-3">
+        <!-- menu items -->
+        <div>
+          <!-- track button -->
+          <div class="mt-20 flex flex-col">
+            <!-- profile pic -->
+            <div class="flex justify-center">
+              <img
+                class="w-28 h-28 object-cover rounded-full"
+                src="https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZSUyMGZhY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+                alt=""
+              />
+            </div>
+            <!-- /profile pic -->
+
+            <!-- email -->
+            <div class="font-semibold text-xs text-center text-gray-900">
+              dan.maina@gmail.com
+            </div>
+            <!-- /email -->
+
+            <!-- settings button -->
+            <button
+              class="bg-white w-full px-5 py-3 text-blue-500 font-bold text-sm rounded mt-10 border bottom-2 border-blue-500"
+            >
+              SETTINGS
+            </button>
+            <!-- /settings button -->
+
+            <!-- logout button -->
+            <button
+              class="bg-blue-500 w-full px-5 py-3 text-gray-50 font-bold text-sm rounded mt-4"
+            >
+              LOGOUT
+            </button>
+            <!-- /logout button -->
+          </div>
+        </div>
+        <!-- /menu items -->
+      </div>
+      <!-- /menu -->
 
       <!-- header -->
       <header class="flex justify-between content-center">
-        <a href="/" class="text-lg font-bold uppercase">CREDOS</a>
+        <a href="/" class="text-lg text-blue-600 font-bold uppercase">CREDOS</a>
         <button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +108,6 @@
 
       <!-- stats -->
       <div class="grid grid-cols-2 grid-row-2 gap-2 mt-6">
-
         <!-- days -->
         <div class="flex flex-col h-28 justify-center items-center">
           <span class="text-xs font-bold">DAYS</span>
@@ -70,13 +134,15 @@
         </div>
         <!-- /best streak -->
 
-
         <!-- daily avg -->
         <div class="flex flex-col h-28 justify-center items-center">
           <div>
             <span class="text-xs font-bold">DAILY AVG</span>
             <div>
-              <span class="font-semibold text-6xl tracking-tighter text-orange-400">5</span>
+              <span
+                class="font-semibold text-6xl tracking-tighter text-orange-400"
+                >5</span
+              >
               <span class="text-xs font-bold"> / 8</span>
             </div>
           </div>
@@ -85,24 +151,25 @@
 
         <!-- consistant - focus on -->
         <div class="col-span-2 flex justify-around mt-4">
+          <!-- consistant -->
+          <div
+            class="flex flex-col bg-gray-50 justify-center items-center py-2"
+          >
+            <span class="text-[10px] font-bold">MOST CONSISTENT</span>
+            <span class="font-semibold">Relational</span>
+          </div>
+          <!-- /consistant -->
 
-            <!-- consistant -->
-            <div class="flex flex-col bg-gray-50 justify-center items-center py-2">
-              <span class="text-[10px] font-bold">MOST CONSISTENT</span>
-              <span class="font-semibold">Relational</span>
-            </div>
-            <!-- /consistant -->
-            
-            <!-- focus on -->
-            <div class="flex flex-col bg-gray-50 justify-center items-center py-2">
-              <span class="text-[10px] font-bold">FOCUS ON</span>
-              <span class="font-semibold">Finances</span>
-            </div>
-            <!-- /focus on -->
-
+          <!-- focus on -->
+          <div
+            class="flex flex-col bg-gray-50 justify-center items-center py-2"
+          >
+            <span class="text-[10px] font-bold">FOCUS ON</span>
+            <span class="font-semibold">Finances</span>
+          </div>
+          <!-- /focus on -->
         </div>
         <!-- /consistant - focus on -->
-
       </div>
       <!-- /stats -->
 
@@ -115,6 +182,5 @@
       </div>
       <!-- /inspirational quote -->
     </div>
-    
   </body>
 </html>
