@@ -1,0 +1,23 @@
+{
+  "name": "credo-tw-template",
+  "version": "1.0.0",
+  "description": "credo app tailwindcss template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannymaina/credo-tw-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannymaina/credo-tw-template/issues"
+  },
+  "homepage": "https://github.com/dannymaina/credo-tw-template#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
