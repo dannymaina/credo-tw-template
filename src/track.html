@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/style.css" rel="stylesheet" />
+    <title>Credos App | Track</title>
+  </head>
+  <body class="antialiased bg-gray-50 text-gray-700">
+    <div class="container min-h-screen p-3 relative">
+      <!-- menu -->
+      <div class="absolute top-0 right-0 left-0 bottom-0 bg-gray-50 p-3">
+        <!-- menu header -->
+        <header class="flex justify-between content-center">
+          <a href="index.html" class="text-lg font-bold uppercase text-blue-600"
+            >CREDOS</a
+          >
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </a>
+        </header>
+        <!-- /menu header -->
+
+        <!-- menu items -->
+        <div>
+          <!-- track button -->
+          <div class="mt-20 flex flex-col">
+            <!-- profile pic -->
+            <div class="flex justify-center">
+              <img
+                class="w-28 h-28 object-cover rounded-full"
+                src="https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZSUyMGZhY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+                alt=""
+              />
+            </div>
+            <!-- /profile pic -->
+
+            <!-- email -->
+            <div class="font-semibold text-xs text-center text-gray-900">
+              dan.maina@gmail.com
+            </div>
+            <!-- /email -->
+
+            <!-- settings button -->
+            <a href="settings.html"
+              class="bg-white w-full px-5 py-3 text-blue-500 font-bold text-sm text-center rounded mt-10 border bottom-2 border-blue-500"
+            >
+              SETTINGS
+            </a>
+            <!-- /settings button -->
+
+            <!-- logout button -->
+            <a href="login.html"
+              class="bg-blue-500 w-full px-5 py-3 text-gray-50 font-bold text-sm text-center rounded mt-4"
+            >
+              LOGOUT
+            </a>
+            <!-- /logout button -->
+          </div>
+        </div>
+        <!-- /menu items -->
+      </div>
+      <!-- /menu -->
+
+      <!-- header -->
+      <header class="flex justify-between content-center">
+        <a href="index.html" class="text-lg text-blue-600 font-bold uppercase">CREDOS</a>
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </a>
+      </header>
+      <!-- /header -->
+
+      <!-- hero -->
+      <div class="mt-10 text-gray-600">
+        <h1 class="text-xl font-semibold">What did you do today?</h1>
+        <p class="mt-2 text-sm font-semibold">Mark the following areas as complete or leave them blank. Ultimately, it doesn't matter whether you work out for 15 min or 30 min. The question is <span class="italic text-gray-900">were you active today?</span> </p>
+      </div>
+      <!-- /hero -->
+
+      <!-- areas -->
+      <ul class="mt-6">
+        <!-- area -->
+        <li class="flex justify-between items-center">
+          <div>
+            <h1 class="font-bold text-sm">PHYSICAL</h1>
+            <p class="font-semibold text-sm text-gray-600 mt-1">Did you do some kind of physical activity today? were you <span class="italic text-gray-900">active?</span> </p>
+          </div>
+          <div class="border-2 flex justify-center items-center p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+            </svg>
+          </div>
+        </li>
+        <!-- /area -->
+
+        <!-- area -->
+        <li class="flex justify-between items-center mt-6">
+          <div>
+            <h1 class="font-bold text-sm">MENTAL</h1>
+            <p class="font-semibold text-sm text-gray-600 mt-1">Did you take care of yourself mentally today. Did you avoid distractions, unnessesary arguments and meaningless frastrations? Were you<span class="italic text-gray-900"> calm of mind?</span> </p>
+          </div>
+          <div class="border-2 flex justify-center items-center p-2 bg-blue-200">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+            </svg>
+          </div>
+        </li>
+        <!-- /area -->
+
+        <!-- area -->
+        <li class="flex justify-between items-center mt-6">
+          <div>
+            <h1 class="font-bold text-sm">EXISTENTIAL</h1>
+            <p class="font-semibold text-sm text-gray-600 mt-1">Did your actions today reflect your beliefs on the meaning of life? Did you <span class="italic text-gray-900">Pray, meditate or live purposefully</span> today?</p>
+          </div>
+          <div class="border-2 flex justify-center items-center p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+            </svg>
+          </div>
+        </li>
+        <!-- /area -->
+        <!-- area -->
+        <li class="flex justify-between items-center mt-6">
+          <div>
+            <h1 class="font-bold text-sm">PHYSICAL</h1>
+            <p class="font-semibold text-sm text-gray-600 mt-1">Did you do some kind of physical activity today? were you <span class="italic text-gray-900">active?</span> </p>
+          </div>
+          <div class="border-2 flex justify-center items-center p-2 bg-blue-200">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+            </svg>
+          </div>
+        </li>
+        <!-- /area -->
+        <!-- area -->
+        <li class="flex justify-between items-center mt-6">
+          <div>
+            <h1 class="font-bold text-sm">PHYSICAL</h1>
+            <p class="font-semibold text-sm text-gray-600 mt-1">Did you take care of yourself mentally today. Did you avoid distractions, unnessesary arguments and meaningless frastrations? Were you<span class="italic text-gray-900"> calm of mind?</span> </p>
+          </div>
+          <div class="border-2 flex justify-center items-center p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+            </svg>
+          </div>
+        </li>
+        <!-- /area -->
+      </ul>
+      <!-- /areas -->
+    </div>
+  </body>
+</html>
